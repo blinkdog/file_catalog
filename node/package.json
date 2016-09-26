@@ -1,0 +1,51 @@
+{
+  "name": "file-catalog-rest-api-test",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Testing the File Catalog REST API",
+  "keywords": [
+    "api",
+    "catalog",
+    "data",
+    "file",
+    "json",
+    "mongo",
+    "rest"
+  ],
+  "homepage": "https://github.com/blinkdog/file_catalog",
+  "bugs": "https://github.com/dsschult/file_catalog",
+  "author": "Patrick Meade <pmeade@icecube.wisc.edu>",
+  "files": [
+    "README.md",
+    "config.cson",
+    "package.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blinkdog/file_catalog"
+  },
+  "scripts": {
+    "test": "cake rebuild"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "coffee-script": "1.11.0",
+    "coffeelint": "1.15.7",
+    "cson": "3.0.2",
+    "mocha": "3.0.2",
+    "should": "11.1.0",
+    "supertest": "2.0.0",
+    "uuid": "2.0.3"
+  },
+  "maybeDependencies": {
+    "denodeify": "1.2.1",
+    "express": "4.14.0",
+    "mongodb": "2.2.10",
+    "underscore": "1.8.3",
+    "winston": "2.2.0",
+    "istanbul": "0.4.5",
+    "node-inspector": "0.12.8",
+    "proxyquire": "1.7.10"
+  }
+}

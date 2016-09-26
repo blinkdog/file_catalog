@@ -1,0 +1,20 @@
+# config.cson
+#----------------------------------------------------------------------------
+
+###
+The base of the REST API of the File Catalog service.
+###
+baseUri: "/api"
+
+###
+The host on which the File Catalog service is listening.
+###
+host: "127.0.0.1"
+
+###
+The port on which the File Catalog service is listening.
+###
+port: 8888
+
+#----------------------------------------------------------------------------
+# end of config.cson
