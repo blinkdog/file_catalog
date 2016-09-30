@@ -1,6 +1,6 @@
 {
   "name": "file-catalog-rest-api-test",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "description": "Testing the File Catalog REST API",
   "keywords": [
@@ -33,9 +33,12 @@
     "coffee-script": "1.11.0",
     "coffeelint": "1.15.7",
     "cson": "3.0.2",
-    "mocha": "3.0.2",
+    "jquery": "3.1.1",
+    "jsdom": "9.5.0",
+    "mocha": "3.1.0",
     "should": "11.1.0",
     "supertest": "2.0.0",
+    "underscore": "1.8.3",
     "uuid": "2.0.3"
   },
   "maybeDependencies": {
